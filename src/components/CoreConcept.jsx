@@ -1,5 +1,6 @@
+import "./CoreConcept.css";
 
-function CoreConcept (props){
+export default function CoreConcept (props){
     return(
       <li>
         <img src= {props.image} alt ={props.title} />
@@ -9,4 +10,4 @@ function CoreConcept (props){
     );
   }
 
-  export default CoreConcept;
+ 
